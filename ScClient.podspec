@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "ScClient"
   s.version      = "1.0.8"
   s.summary      = "A socketcluster client for iOS and OSX."
-  s.swift_version = '3.2'
+  s.swift_version = '4.2'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "Native iOS/macOS client written in swift. Provides support to for emitting and listening to remote events, publish-subscribe and authentication using JWT"
 
-  s.homepage     = "https://github.com/sacOO7/socketcluster-client-swift.git"
+  s.homepage     = "https://github.com/EyeLogic/socketcluster-client-swift.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/sacOO7/socketcluster-client-swift.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/EyeLogic/socketcluster-client-swift.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -136,6 +136,6 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "Starscream", "~> 3.0.5"
-  s.dependency "HandyJSON", "~> 4.2.0"
+  s.dependency "Starscream", "~> 3.1.0"
+  s.dependency "HandyJSON", "~> 5.0.0"
 end
